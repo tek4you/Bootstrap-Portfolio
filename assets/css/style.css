@@ -1,0 +1,85 @@
+body {
+    background: url("../images/concrete_seamless.png");
+}
+
+* {
+    box-sizing: border-box;
+  }
+
+li {
+    display: inline-block;
+    padding-left: 15px;
+    margin-left: 15px;
+    line-height: 18px;
+    /* color: #999; */
+    text-decoration: none;
+    border-left: 1px solid #efefef;
+  }
+  
+li:last-child {
+    border-left: 0 none;
+  }
+p {
+    font-size: 20px;
+    margin: 0 20 0 20;
+}
+.toparea {
+    background-color: white;  
+    margin: 0 0 0 0;
+    border-bottom: #999 solid 2px;
+    
+  }
+img {
+      height: 200px;
+      width: 200px;
+  }
+#colormeblue {
+      color: #4aaaa5;
+  }
+footer {
+      margin: 60px 0 0 0;
+      text-align: center;
+      border-top: solid 5px #4aaaa5;
+      background: gray;
+      padding: 40px 0 0 0;
+  }
+  #piclabel {
+      background: #4aaaa5;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      width: 200px;
+     font-size: 1em;
+     position: absolute;
+     bottom: 10px;
+  }
+label,
+input[type=text],
+input[type=email],
+textarea {
+  display: block;
+  width: 100%;
+}
+
+input[type=text],
+input[type=email],
+textarea {
+  height: 35px;
+  padding: 0 10px;
+  font-size: 14px;
+  border: 1px solid #dddddd;
+}
+
+  textarea {
+    height: 200px;
+  }
+  
+  input[type=submit] {
+    padding: 10px 30px;
+    font-size: 18px;
+    color: #ffffff;
+    cursor: pointer;
+    background: #4aaaa5;
+    border: 0 none;
+  }
+  
